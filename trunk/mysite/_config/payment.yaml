@@ -1,0 +1,26 @@
+Name: Mysite
+---
+
+PaymentGateway:
+  environment:
+    'dev'
+
+PaymentProcessor:
+  supported_methods:
+    dev:
+      - 'Cheque'
+      - 'PayPalExpress'
+    live:
+      - 'Cheque'
+
+PayPalGateway_Express:
+  live:
+    authentication:
+      username: ''
+      password: ''
+      signature: ''
+  dev:
+    authentication:
+      username: 'phung1471-facilitator_api1.gmail.com'
+      password: 'S9KPLXNAFBVQ9TQF'
+      signature: 'AFcWxV21C7fd0v3bYYYRCpSSRl31A3-0LlBM6kV3a-.u.HDhHkI2YAl6'
